@@ -11,7 +11,7 @@ const Balance: React.FunctionComponent = () => {
 
 	return (
 		<div>
-			<HTMLHead />	
+			<HTMLHead title={'Balance'} />	
 			<Header />
 			<main className="p-3 mt-10">
 				<div className="bg-gradient-to-r from-emerald-500 to-emerald-600 p-3 rounded-md my-3">
