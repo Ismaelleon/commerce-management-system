@@ -11,7 +11,7 @@ const SignUp: React.FunctionComponent = () => {
 			<HTMLHead />
 			<Header />
 			<main className="flex justify-center items-center flex-col h-screen">
-				<form className="flex flex-col ">
+				<form className="flex flex-col w-9/12">
 					<input type="email" placeholder="E-mail" className="border rounded-md p-3 my-2" />
 					<input type="password" placeholder="Password" className="border rounded-md p-3 my-2" />
 					<input type="submit" value="Sign Up" className="bg-emerald-500 text-white font-bold py-3 rounded-md text-center my-2" />
