@@ -5,6 +5,7 @@ import { IoMdEye, IoMdEyeOff } from 'react-icons/io';
 import HTMLHead from '../components/htmlhead';
 import Header from '../components/header';
 import Movement from '../components/movement';
+import Navigation from '../components/navigation';
 
 const Balance: React.FunctionComponent = () => {
 	const [balanceHidden, setBalanceHidden] = useState(true);
@@ -26,7 +27,7 @@ const Balance: React.FunctionComponent = () => {
 					<span className="text-3xl text-white font-bold">$***</span>
 				</div>
 				<div className="border-t my-3 p-3">
-					<span className="text-base text-black font-medium">Movements</span>
+					<span className="text-base text-black font-semibold">Movements</span>
 					<ul>
 						<Movement amount={2500} date={'Today'} hour={'3:25PM'} profit={true} />
 						<Movement amount={1300} date={'Today'} hour={'1:45PM'} profit={false} />
@@ -35,6 +36,7 @@ const Balance: React.FunctionComponent = () => {
 					</ul>
 				</div>
 			</main>
+			<Navigation />
 		</div>
 	);
 };
