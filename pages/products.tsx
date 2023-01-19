@@ -5,6 +5,7 @@ import HTMLHead from '../components/htmlhead';
 import Header from '../components/header';
 import Navigation from '../components/navigation';
 import Product from '../components/product';
+import ActionButton from '../components/actionbutton';
 
 const Products: React.FunctionComponent = () => {
 	return (
@@ -20,6 +21,7 @@ const Products: React.FunctionComponent = () => {
 					</ul>
 				</div>
 			</main>
+			<ActionButton href="/product/new" />
 			<Navigation />
 		</div>
 	);

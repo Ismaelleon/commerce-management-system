@@ -6,6 +6,7 @@ import HTMLHead from '../components/htmlhead';
 import Header from '../components/header';
 import Movement from '../components/movement';
 import Navigation from '../components/navigation';
+import ActionButton from '../components/actionbutton';
 
 const Balance: React.FunctionComponent = () => {
 	const [balanceHidden, setBalanceHidden] = useState(true);
@@ -36,6 +37,7 @@ const Balance: React.FunctionComponent = () => {
 					</ul>
 				</div>
 			</main>
+			<ActionButton href="/movement/new" />
 			<Navigation />
 		</div>
 	);
