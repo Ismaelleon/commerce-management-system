@@ -8,7 +8,7 @@ import Header from '../components/header';
 const Index: React.FunctionComponent = () => {
 	return (
 		<div>
-			<HTMLHead />
+			<HTMLHead title={'Content Management System'} />
 			<Header />
 			<main className="flex justify-center items-center flex-col h-screen">
 				<h1 className="text-3xl font-bold text-center">The best Content Management System</h1>

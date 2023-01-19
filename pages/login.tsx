@@ -8,7 +8,7 @@ import Header from '../components/header';
 const LogIn: React.FunctionComponent = () => {
 	return (
 		<div>
-			<HTMLHead />
+			<HTMLHead title={'Log In'} />
 			<Header />
 			<main className="flex justify-center items-center flex-col h-screen">
 				<form className="flex flex-col w-9/12">
