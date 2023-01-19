@@ -16,7 +16,7 @@ const LogIn: React.FunctionComponent = () => {
 					<input type="password" placeholder="Password" className="border rounded-md p-3 my-2" />
 					<input type="submit" value="Log In" className="bg-emerald-500 text-white font-bold py-3 rounded-md text-center my-2" />
 				</form>
-				<Link href="/signup" className="text-sm my-2 text-emerald-500 underline">You don't have an account? Sign Up</Link>
+				<Link href="/signup" className="text-sm my-2 text-emerald-500 underline">You don&#39;t have an account? Sign Up</Link>
 			</main>
 		</div>
 	);
