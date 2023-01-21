@@ -11,7 +11,7 @@ const Account: React.FunctionComponent = () => {
 			<HTMLHead title={'Account'} />		
 			<Header />
 			<main className="flex py-3 flex-col mt-10">
-				<span className="p-3 border-b text-base font-medium text-red-500">Log out</span>	
+				<span className="p-3 border-b text-base font-medium text-red-500 dark:border-neutral-700">Log out</span>	
 			</main>
 			<Navigation />
 		</div>

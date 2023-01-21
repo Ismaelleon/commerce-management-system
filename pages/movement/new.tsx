@@ -12,11 +12,11 @@ const NewMovement = () => {
 			<Header />
 			<main className="flex justify-center flex-col p-3 mt-12">
 				<form className="flex flex-col w-full">
-					<h2 className="text-xl text-black font-bold">New movement</h2>
-					<input type="number" placeholder="Amount" className="border rounded-md p-3 my-2" />
-					<input type="date" className="border rounded-md p-3 my-2 min-w-full w-full" />
-					<input type="time" placeholder="Time" className="border rounded-md p-3 my-2 w-full" />
-					<select className="border rounded-md p-3 my-2 w-full">
+					<h2 className="text-xl text-black font-bold dark:text-white">New movement</h2>
+					<input type="number" placeholder="Amount" className="border rounded-md p-3 my-2 dark:bg-neutral-900 dark:border-neutral-700 dark:text-white" />
+					<input type="date" className="border rounded-md p-3 my-2 min-w-full w-full dark:bg-neutral-900 dark:border-neutral-700 dark:text-white" />
+					<input type="time" placeholder="Time" className="border rounded-md p-3 my-2 w-full dark:bg-neutral-900 dark:border-neutral-700 dark:text-white" />
+					<select className="border rounded-md p-3 my-2 w-full dark:bg-neutral-900 dark:border-neutral-700 dark:text-white">
 						<option value="profit">Profit</option>
 						<option value="expense">Expense</option>
 					</select>

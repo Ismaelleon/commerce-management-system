@@ -27,8 +27,8 @@ const Balance: React.FunctionComponent = () => {
 					</header>
 					<span className="text-3xl text-white font-bold">$***</span>
 				</div>
-				<div className="border-t my-3 p-3">
-					<span className="text-base text-black font-semibold">Movements</span>
+				<div className="border-t my-3 p-3 dark:border-neutral-700">
+					<span className="text-base text-black font-semibold dark:text-white">Movements</span>
 					<ul>
 						<Movement amount={2500} date={'Today'} hour={'3:25PM'} profit={true} />
 						<Movement amount={1300} date={'Today'} hour={'1:45PM'} profit={false} />

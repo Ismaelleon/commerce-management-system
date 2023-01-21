@@ -12,8 +12,8 @@ const LogIn: React.FunctionComponent = () => {
 			<Header />
 			<main className="flex justify-center items-center flex-col h-screen">
 				<form className="flex flex-col w-9/12">
-					<input type="email" placeholder="E-mail" className="border rounded-md p-3 my-2" />
-					<input type="password" placeholder="Password" className="border rounded-md p-3 my-2" />
+					<input type="email" placeholder="E-mail" className="border rounded-md p-3 my-2 dark:bg-neutral-900 dark:text-white dark:border-neutral-700" />
+					<input type="password" placeholder="Password" className="border rounded-md p-3 my-2 dark:bg-neutral-900 dark:text-white dark:border-neutral-700" />
 					<input type="submit" value="Log In" className="bg-emerald-500 text-white font-bold py-3 rounded-md text-center my-2" />
 				</form>
 				<Link href="/signup" className="text-sm my-2 text-emerald-500 underline">You don&#39;t have an account? Sign Up</Link>
