@@ -7,7 +7,8 @@ const Navigation: React.FunctionComponent = () => {
 	const router: NextRouter = useRouter();
 
 	const setNavigationLinkColor = (linkPathname: string, secondaryLinkPathname?: string) => {
-		if (router.pathname === linkPathname || router.pathname === secondaryLinkPathname) {
+		const pathname: string = '/' + router.pathname.split('/')[1];
+		if (pathname === linkPathname || pathname === secondaryLinkPathname) {
 			return 'text-emerald-500';
 		}
 
@@ -17,12 +18,12 @@ const Navigation: React.FunctionComponent = () => {
 	return (
 		<nav className="flex justify-between fixed bottom-0 left-0 bg-white border-t w-screen py-3 px-6">
 			<Link href="/balance" className="flex flex-col items-center">
-				<IoMdCard className={`${setNavigationLinkColor('/balance', '/movement/new')} text-2xl`} />	
-				<span className={`${setNavigationLinkColor('/balance', '/movement/new')} text-sm font-medium`}>Balance</span>
+				<IoMdCard className={`${setNavigationLinkColor('/balance', '/movement')} text-2xl`} />	
+				<span className={`${setNavigationLinkColor('/balance', '/movement')} text-sm font-medium`}>Balance</span>
 			</Link>
 			<Link href="/products" className="flex flex-col items-center">
-				<IoMdShirt className={`${setNavigationLinkColor('/products', '/product/new')} text-2xl`} />	
-				<span className={`${setNavigationLinkColor('/products', '/product/new')} text-sm font-medium`}>Products</span>
+				<IoMdShirt className={`${setNavigationLinkColor('/products', '/product')} text-2xl`} />	
+				<span className={`${setNavigationLinkColor('/products', '/product')} text-sm font-medium`}>Products</span>
 			</Link>
 			<Link href="/account" className="flex flex-col items-center">
 				<IoMdPerson className={`${setNavigationLinkColor('/account')} text-2xl`} />	
