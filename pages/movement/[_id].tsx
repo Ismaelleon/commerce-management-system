@@ -13,7 +13,7 @@ const Movement = () => {
 
 	return (
 		<div>
-			<HTMLHead title={'Balance'} />	
+			<HTMLHead title={'Movement'} />	
 			<Header />
 			<main className="p-3 mt-10 flex flex-col">
 				<div className="flex flex-row items-center py-3">
