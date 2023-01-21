@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Header: React.FunctionComponent = () => {
 	return (
 		<div className="fixed top-0 left-0 p-3 border-b bg-white w-screen">
-			<Link href="/" className="text-lg font-bold">Content Management System</Link>
+			<Link href="/" className="text-lg font-bold">Commerce Management System</Link>
 		</div>
 	);
 };
